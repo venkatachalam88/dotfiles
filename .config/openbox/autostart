@@ -1,0 +1,31 @@
+#===================#
+#                   #
+# Openbox AutoStart #
+#                   #
+#===================#
+
+nitrogen --set-auto "/home/venkat/Pictures/Wallpapers/Wallpapers Den/wallpapersden.com_dead-lake_1366x768.jpg" &
+
+picom --experimental-backends &
+
+tint2 &
+
+nm-applet &
+
+volumeicon &
+
+cbatticon -c /home/venkat/Documents/Scripts/shell_scripts/my_scripts/hibernate.sh &
+
+clipit &
+
+urxvtd -q &
+
+#thunar --daemon &
+
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+xautolock -time 10 -locker "systemctl suspend" -detectsleep &
+
+sleep 30s && /home/venkat/Documents/Scripts/shell_scripts/my_scripts/app_relaunch.sh &
+
+sleep 60s && betterlockscreen -u /home/venkat/Pictures/Wallpapers/Wallpapers\ Den/wallpapersden.com_dead-lake_1366x768.jpg
