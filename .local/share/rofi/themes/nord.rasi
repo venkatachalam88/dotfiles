@@ -1,0 +1,74 @@
+configuration {
+  show-icons: true;
+  font: "Overpass 10";
+  drun-display-format: "{icon} {name}";
+  display-run: " ";
+  display-drun: " ";
+  display-window: " ";
+  modi: "window,run,drun";
+}
+
+* {
+  background-color: #2E3440;
+  background-color-alt: #3B4252;
+  selection-background-color: #8FBCBB;
+  foreground-color: #ECEFF4;
+  selection-text-color:#2E3440;
+  border-color: #4C566A;
+  nord-green: #8FBCBB;
+  nord-blue-light: #81A1C1;
+  
+
+  border: 0;
+  lines: 10;
+  padding: 0;
+  margin: 0;
+  spacing: 0;
+}
+
+window {
+  width: 30%;
+  transparency: "real";
+  border: 2;
+  border-color: @border-color;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+listview {
+  columns: 1;
+}
+
+element {
+  padding: 12;
+  orientation: vertical;
+  text-color: @foreground-color;
+}
+
+element selected {
+  background-color: @selection-background-color;
+  text-color: @selection-text-color;
+}
+
+inputbar {
+  background-color: @background-color;
+  children: [prompt, entry];
+  padding: 12 12 12 0;
+}
+
+prompt {
+  enabled: true;
+  font: "SauceCodePro Nerd Font 12";
+  padding: 12 0 0 12;
+  background-color: @background-color;
+  text-color: @nord-green;
+}
+
+entry {
+  padding: 12;
+  background-color: @background-color-alt;
+  text-color: @nord-green;
+}
+
