@@ -155,6 +155,13 @@ bindkey	"^[[2~"	overwrite-mode
 bindkey	"^[[Z"	reverse-menu-complete
 bindkey	"^R"	history-search-multi-word
 
+
+# URxvt BindKeys
+bindkey	"^[[1~"	beginning-of-line
+bindkey	"^[[4~"	end-of-line
+bindkey	"^[[7~"	beginning-of-line
+bindkey	"^[[8~"	end-of-line
+
 # End of lines configured by zsh-newuser-install
 
 
