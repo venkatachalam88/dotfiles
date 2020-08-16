@@ -20,6 +20,8 @@ clipit &
 
 urxvtd -q &
 
+xsettingsd &
+
 #thunar --daemon &
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
