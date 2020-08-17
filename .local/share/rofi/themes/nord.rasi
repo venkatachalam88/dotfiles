@@ -1,6 +1,6 @@
 configuration {
   show-icons: true;
-  font: "Overpass 10";
+  font: "Ubuntu 9";
   drun-display-format: "{icon} {name}";
   display-run: " ";
   display-drun: " ";
@@ -27,7 +27,7 @@ configuration {
 }
 
 window {
-  width: 30%;
+  width: 25%;
   transparency: "real";
   border: 2;
   border-color: @border-color;
