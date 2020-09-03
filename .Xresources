@@ -11,7 +11,7 @@ xterm*vt100.geometry: 100x25
 
 ! Font
 xterm*vt100.faceName: DejaVu Sans Mono for Powerline
-xterm*vt100.faceSize: 10
+xterm*vt100.faceSize: 9
 
 
 !| URxvt Configuration
@@ -54,7 +54,7 @@ URxvt.saveline:	2048
 URxvt.fading:	0
 URxvt*dynamicColors:	on
 URxvt.urgentOnBell:	true
-URxvt.iso14755:	false
+!URxvt.iso14755:	false
 
 !Native transparency
 !URxvt*inheritPixmap:	true

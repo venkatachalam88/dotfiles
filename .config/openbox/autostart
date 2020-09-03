@@ -26,7 +26,9 @@ xsettingsd &
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-xautolock -time 10 -locker "systemctl suspend" -detectsleep &
+# xautolock -time 10 -locker "systemctl suspend" -detectsleep &
+
+xautolock -time 10 -locker "/home/venkat/Documents/Scripts/shell_scripts/my_scripts/screenlock.sh" -detectsleep &
 
 sleep 30s && /home/venkat/Documents/Scripts/shell_scripts/my_scripts/app_relaunch.sh &
 

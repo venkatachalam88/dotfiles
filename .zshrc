@@ -32,7 +32,7 @@ zinit light-mode for \
 # Zinit Snippets
 # oh-my-zsh plugins
 zinit snippet	OMZ::plugins/archlinux/archlinux.plugin.zsh
-zinit cdclear -q
+# zinit cdclear -q
 
 zinit snippet	OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
 
@@ -145,7 +145,7 @@ setopt HIST_BEEP
 
 
 # Bindkeys
-bindkey -v
+bindkey -v '^?' backward-delete-char
 bindkey	"^[[H"	beginning-of-line
 bindkey	"^[[F"	end-of-line
 bindkey	"^[[5~"	beginning-of-buffer-or-history
@@ -222,6 +222,7 @@ eval $(thefuck --alias)
 # My Alias
 alias ls='ls --color=auto'
 alias tree='tree -C'
+alias config='/usr/bin/git --git-dir=/home/venkat/.cfg/ --work-tree=/home/venkat'
 
 
 # My Commands
@@ -249,5 +250,3 @@ $HOME/Documents/Scripts/shell_scripts/ASCII/scripts/arch_logo_toilet.sh
 #    precmd () {print -Pn "\e]0;Alacritty - %~\a"}
 #    ;;
 #esac
-
-alias config='/usr/bin/git --git-dir=/home/venkat/.cfg/ --work-tree=/home/venkat'

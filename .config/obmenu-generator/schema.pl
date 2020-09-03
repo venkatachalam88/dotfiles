@@ -32,7 +32,7 @@ our $SCHEMA = [
 	{sep => 'Favorites'},
 
     #          COMMAND                 LABEL              ICON
-    {item => ['thunar',       'File Manager', 'system-file-manager']},
+    {item => ['pcmanfm',       'File Manager', 'system-file-manager']},
     {item => ['urxvtc',            'Terminal',     'utilities-terminal']},
     {item => ['xdg-open http://', 'Web Browser',  'web-browser']},
     {item => ['rofi -show drun',            'Run command',  'system-run']},
