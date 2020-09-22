@@ -43,8 +43,12 @@ listview {
 
 element {
   padding: 12;
-  orientation: vertical;
-  text-color: @foreground-color;
+  text-color: @foreground-color; 
+}
+
+element-icon {
+    size: 1.2em;
+    border: 0px;
 }
 
 element selected {
