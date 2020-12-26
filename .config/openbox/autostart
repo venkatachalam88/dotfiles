@@ -4,7 +4,7 @@
 #                   #
 #===================#
 
-nitrogen --set-auto "/home/venkat/Pictures/Wallpapers/Wallpapers Den/wallpapersden.com_dead-lake_1366x768.jpg" &
+nitrogen --set-auto "/home/venkat/Pictures/Wallpapers/addy/haze.jpg" &
 
 picom --experimental-backends &
 
@@ -34,4 +34,4 @@ xautolock -time 10 -locker "/home/venkat/Documents/Scripts/shell_scripts/my_scri
 
 sleep 30s && /home/venkat/Documents/Scripts/shell_scripts/my_scripts/app_relaunch.sh &
 
-sleep 60s && betterlockscreen -u /home/venkat/Pictures/Wallpapers/Wallpapers\ Den/wallpapersden.com_dead-lake_1366x768.jpg
+sleep 60s && betterlockscreen -u /home/venkat/Pictures/Wallpapers/addy/haze.jpg
