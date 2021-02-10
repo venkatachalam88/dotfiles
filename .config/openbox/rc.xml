@@ -403,6 +403,11 @@
         <command>/home/venkat/Documents/Scripts/shell_scripts/useful/brightness.sh down</command>
       </action>
     </keybind>
+    <keybind key="Print">
+      <action name="Execute">
+        <command>xfce4-screenshooter</command>
+      </action>
+    </keybind>
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>

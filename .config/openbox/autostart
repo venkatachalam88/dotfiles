@@ -4,7 +4,7 @@
 #                   #
 #===================#
 
-nitrogen --set-auto "/home/venkat/Pictures/Wallpapers/addy/haze.jpg" &
+nitrogen --set-auto "/home/venkat/Pictures/Wallpapers/Wallpapers Pictures/wallhaven-3335.jpg" &
 
 picom --experimental-backends &
 
@@ -30,8 +30,10 @@ xsettingsd &
 
 # xautolock -time 10 -locker "systemctl suspend" -detectsleep &
 
-xautolock -time 10 -locker "/home/venkat/Documents/Scripts/shell_scripts/my_scripts/screenlock.sh" -detectsleep &
+# xautolock -time 10 -locker "/home/venkat/Documents/Scripts/shell_scripts/my_scripts/screenlock.sh" -detectsleep &
+
+xidlehook --not-when-audio --not-when-fullscreen --timer 600 "betterlockscreen -l dim" "" &
 
 sleep 30s && /home/venkat/Documents/Scripts/shell_scripts/my_scripts/app_relaunch.sh &
 
-sleep 60s && betterlockscreen -u /home/venkat/Pictures/Wallpapers/addy/haze.jpg
+sleep 60s && betterlockscreen -u /home/venkat/Pictures/Wallpapers/Wallpapers\ Pictures/wallhaven-3335.jpg
