@@ -1,11 +1,3 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
     print -P "%F{33}▓▒░ %F{220}Installing %F{33}DHARMA%F{220} Initiative Plugin Manager (%F{33}zdharma/zinit%F{220})…%f"
@@ -32,31 +24,13 @@ zinit light-mode for \
 # Zinit Snippets
 # oh-my-zsh plugins
 zinit snippet	OMZ::plugins/archlinux/archlinux.plugin.zsh
-# zinit cdclear -q
-
 zinit snippet	OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
 
 # Zinit Plugins
-# Two regular plugins loaded without investigating.
-# Added Multi word search
-# zinit for \
-#    light-mode  zsh-users/zsh-autosuggestions \
-#    light-mode  zdharma/fast-syntax-highlighting \
-#                zdharma/history-search-multi-word
 
 # Prompt
 zinit ice compile'(pure|async).zsh' pick'async.zsh' src'pure.zsh'
 zinit light sindresorhus/pure
-# zinit   light	denysdovhan/spaceship-prompt
-# zinit ice depth=1; zinit light romkatv/powerlevel10k
-
-
-# Spaceship theme configrations
-# SPACESHIP_CHAR_SYMBOL='❯ '
-# SPACESHIP_PROMPT_ADD_NEWLINE=false
-# SPACESHIP_VI_MODE_SHOW=true
-# SPACESHIP_VI_MODE_COLOR='#1793D1'
-
 
 # z
 zinit ice wait blockf lucid
@@ -93,7 +67,7 @@ zinit load zdharma/history-search-multi-word
 
 # Lines configured by zsh-newuser-install
 
-# ===== History
+# History
 HISTFILE=~/.zsh_history
 HISTSIZE=10000000
 SAVEHIST=10000000
@@ -177,38 +151,11 @@ export EDITOR='vim'
 test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
 
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-
-# Zsh Completion - Zinit
-# autoload -Uz compinit
-# compinit
-
-# zinit cdreplay -q
-# zinit cdlist
-
-
 zstyle ':completion:*' rehash true
-
-
-# Vi mode
-#function zle-line-init zle-keymap-select {
-#    RPS1="${${KEYMAP/vicmd}/(main|viins)}"
-#    RPS2=$RPS1
-#    zle reset-prompt
-#}
-
-#zle -N zle-line-init
-#zle -N zle-keymap-select
 
 
 # Reduce latency when pressing <Esc>
 export KEYTIMEOUT=1
-
-
-# Completion for kitty
-# kitty + complete setup zsh | source /dev/stdin
 
 
 # Paths
@@ -223,30 +170,4 @@ eval $(thefuck --alias)
 alias ls='ls --color=auto'
 alias tree='tree -C'
 alias config='/usr/bin/git --git-dir=/home/venkat/.cfg/ --work-tree=/home/venkat'
-
-
-# My Commands
-
-$HOME/Documents/Scripts/shell_scripts/ASCII/scripts/arch_logo_toilet.sh
-
-#case $TERM in
-#  rxvt*)
-#    sh $HOME/Documents/Scripts/shell_scripts/ASCII/scripts/arch_logo_toilet.sh #| lolcat
-#    ;;
-#	  *)
-#     sh $HOME/Documents/Scripts/shell_scripts/ASCII/scripts/arch_logo_toilet.sh
-#    ;;
-#esac
-
-
-#case $TERM in
-#  rxvt*)
-#    precmd () {print -Pn "\e]0;Urxvt - %~\a"}
-#    ;;
-#  xterm-termite)
-#    precmd () {print -Pn "\e]0;Termite - %~\a"}
-#    ;;
-#  alacritty)
-#    precmd () {print -Pn "\e]0;Alacritty - %~\a"}
-#    ;;
-#esac
+alias sudo='doas'
