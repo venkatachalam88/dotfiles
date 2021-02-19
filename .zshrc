@@ -143,7 +143,7 @@ bindkey	"^[[8~"	end-of-line
 # DISABLE_AUTO_TITLE="true"
 
 
-# Export
+# Editor
 export EDITOR='vim'
 
 

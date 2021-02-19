@@ -4,7 +4,7 @@
 #                   #
 #===================#
 
-nitrogen --set-auto "/home/venkat/Pictures/Wallpapers/Wallpapers Pictures/wallhaven-3335.jpg" &
+nitrogen --set-zoom-fill "/home/venkat/Pictures/Wallpapers/Unsplash/dylan-leagh-sXuf1oedoA0-unsplash.jpg" &
 
 picom --experimental-backends &
 
@@ -36,4 +36,4 @@ xidlehook --not-when-audio --not-when-fullscreen --timer 600 "betterlockscreen -
 
 sleep 30s && /home/venkat/Documents/Scripts/shell_scripts/my_scripts/app_relaunch.sh &
 
-sleep 60s && betterlockscreen -u /home/venkat/Pictures/Wallpapers/Wallpapers\ Pictures/wallhaven-3335.jpg
+sleep 60s && betterlockscreen -u /home/venkat/Pictures/Wallpapers/Unsplash/dylan-leagh-sXuf1oedoA0-unsplash.jpg

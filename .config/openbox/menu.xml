@@ -9,7 +9,7 @@
     <item label="Web Browser" icon="/home/venkat/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
     <item label="Run command" icon="/home/venkat/.config/obmenu-generator/icons/b2b2a479765ba69f1dc413dc93b41b88.png"><action name="Execute"><command><![CDATA[rofi -show drun]]></command></action></item>
   <separator label="Categories"/>
-  <menu id="0.174982802084745" icon="/home/venkat/.config/obmenu-generator/icons/31643ff91c9388921823807f94df951c.png" label="Accessories">
+  <menu id="0.187418055095808" icon="/home/venkat/.config/obmenu-generator/icons/31643ff91c9388921823807f94df951c.png" label="Accessories">
     <item label="7-Zip FM" icon="/home/venkat/.config/obmenu-generator/icons/1e3436b7723f06cfacd64a19b01c0d6d.png"><action name="Execute"><command><![CDATA[7zFM]]></command></action></item>
     <item label="About Xfce" icon="/home/venkat/.config/obmenu-generator/icons/7a43c9e343d3f165c8d38c642ed9246d.png"><action name="Execute"><command><![CDATA[xfce4-about]]></command></action></item>
     <item label="Application Finder" icon="/home/venkat/.config/obmenu-generator/icons/c05509a60604f3608c0a2c43ea2a0d28.png"><action name="Execute"><command><![CDATA[xfce4-appfinder]]></command></action></item>
@@ -51,7 +51,7 @@
     <item label="Xarchiver" icon="/home/venkat/.config/obmenu-generator/icons/1e3436b7723f06cfacd64a19b01c0d6d.png"><action name="Execute"><command><![CDATA[xarchiver]]></command></action></item>
     <item label="Xfburn" icon="/home/venkat/.config/obmenu-generator/icons/27152ab2a5463fc8b72ecc5e03232f71.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
   </menu>
-  <menu id="0.69427900234902" icon="/home/venkat/.config/obmenu-generator/icons/8c1dc9cf0c1e3e94ac4e6977e943e5ff.png" label="Development">
+  <menu id="0.551810961772816" icon="/home/venkat/.config/obmenu-generator/icons/8c1dc9cf0c1e3e94ac4e6977e943e5ff.png" label="Development">
     <item label="Bluefish Editor" icon="/home/venkat/.config/obmenu-generator/icons/7cfe6d9ab13e0738d372fd40f35836cf.png"><action name="Execute"><command><![CDATA[bluefish]]></command></action></item>
     <item label="CMake" icon="/home/venkat/.config/obmenu-generator/icons/28ad37ecb1da5d71e0a295a6c4674e30.png"><action name="Execute"><command><![CDATA[cmake-gui]]></command></action></item>
     <item label="Electron" icon="/home/venkat/.config/obmenu-generator/icons/18bd408de210052eacd80ba6f511e4f3.png"><action name="Execute"><command><![CDATA[electron]]></command></action></item>
@@ -66,12 +66,12 @@
     <item label="Qt QDbusViewer" icon="/home/venkat/.config/obmenu-generator/icons/a5e0f9bf12a6f2f310bfbebc1c42a8d0.png"><action name="Execute"><command><![CDATA[qdbusviewer]]></command></action></item>
     <item label="Visual Studio Code" icon="/home/venkat/.config/obmenu-generator/icons/0775ff53e06b1f6a59278fd96a372bcc.png"><action name="Execute"><command><![CDATA[/opt/visual-studio-code/code --no-sandbox --unity-launch]]></command></action></item>
   </menu>
-  <menu id="0.821166738207591" icon="/home/venkat/.config/obmenu-generator/icons/3efba170680fea1d3dfa59587f5889ec.png" label="Education">
+  <menu id="0.448908981439796" icon="/home/venkat/.config/obmenu-generator/icons/3efba170680fea1d3dfa59587f5889ec.png" label="Education">
     <item label="GNU Octave" icon="/home/venkat/.config/obmenu-generator/icons/14d972a8a1bf15a241d07249dc226a04.png"><action name="Execute"><command><![CDATA[/usr/bin/octave --gui]]></command></action></item>
     <item label="Klavaro" icon="/home/venkat/.config/obmenu-generator/icons/48d4f248f717a3371bd66f9d92d8b9c9.png"><action name="Execute"><command><![CDATA[klavaro]]></command></action></item>
     <item label="LibreOffice Math" icon="/home/venkat/.config/obmenu-generator/icons/9a3c79b033bbc5e04d6ac5654cbc9467.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
   </menu>
-  <menu id="0.740697244737881" icon="/home/venkat/.config/obmenu-generator/icons/ab117c0d8bf7fb5e0b3d25f044a66c90.png" label="Games">
+  <menu id="0.482802702902468" icon="/home/venkat/.config/obmenu-generator/icons/ab117c0d8bf7fb5e0b3d25f044a66c90.png" label="Games">
     <item label="bastet" icon="/home/venkat/.config/obmenu-generator/icons/a464de06ee32b107eed2c05520fd6700.png"><action name="Execute"><command><![CDATA[xterm -e 'bastet']]></command></action></item>
     <item label="Black Box" icon="/home/venkat/.config/obmenu-generator/icons/6a5f7173f22cc487f75c626fbc59eaf0.png"><action name="Execute"><command><![CDATA[/usr/bin/puzzles-blackbox]]></command></action></item>
     <item label="Bridges" icon="/home/venkat/.config/obmenu-generator/icons/291781a0b84aff6d9d9764cf768df67c.png"><action name="Execute"><command><![CDATA[/usr/bin/puzzles-bridges]]></command></action></item>
@@ -114,7 +114,7 @@
     <item label="Untangle" icon="/home/venkat/.config/obmenu-generator/icons/708b36ac96bba4a7aeba242fae0fcfe5.png"><action name="Execute"><command><![CDATA[/usr/bin/puzzles-untangle]]></command></action></item>
     <item label="Xboard" icon="/home/venkat/.config/obmenu-generator/icons/8fcb9eed0bad955e9d0e329270352cef.png"><action name="Execute"><command><![CDATA[xboard]]></command></action></item>
   </menu>
-  <menu id="0.65229234321767" icon="/home/venkat/.config/obmenu-generator/icons/dcffb3b53473da4e549363c79ef3e5a9.png" label="Graphics">
+  <menu id="0.553632275795355" icon="/home/venkat/.config/obmenu-generator/icons/dcffb3b53473da4e549363c79ef3e5a9.png" label="Graphics">
     <item label="Agave" icon="/home/venkat/.config/obmenu-generator/icons/17907044ad7e6d603746ebcad7911fc8.png"><action name="Execute"><command><![CDATA[agave]]></command></action></item>
     <item label="Blender" icon="/home/venkat/.config/obmenu-generator/icons/fbe588ac4856d375649340d5dacf0a3e.png"><action name="Execute"><command><![CDATA[blender]]></command></action></item>
     <item label="Dia Diagram Editor" icon="/home/venkat/.config/obmenu-generator/icons/bfb2dd8220c8c73d646618be8c3f1ba4.png"><action name="Execute"><command><![CDATA[dia]]></command></action></item>
@@ -131,7 +131,7 @@
     <item label="Synfig Studio" icon="/home/venkat/.config/obmenu-generator/icons/ab504973cd3d3f529dc2e6fd5576dfa7.png"><action name="Execute"><command><![CDATA[synfigstudio]]></command></action></item>
     <item label="XaoS" icon="/home/venkat/.config/obmenu-generator/icons/a9d9bedafeef8af93591f893931442e9.png"><action name="Execute"><command><![CDATA[xaos]]></command></action></item>
   </menu>
-  <menu id="0.0283452081348372" icon="/home/venkat/.config/obmenu-generator/icons/9b6b51736fa80f6e4ea743e9a18b2df9.png" label="Multimedia">
+  <menu id="0.529918560510836" icon="/home/venkat/.config/obmenu-generator/icons/9b6b51736fa80f6e4ea743e9a18b2df9.png" label="Multimedia">
     <item label="Audacity" icon="/home/venkat/.config/obmenu-generator/icons/bd0247370102d86953dd25aaec3b245b.png"><action name="Execute"><command><![CDATA[env UBUNTU_MENUPROXY=0 audacity]]></command></action></item>
     <item label="Clementine" icon="/home/venkat/.config/obmenu-generator/icons/2a8697325706fb22827d5d67afe4091b.png"><action name="Execute"><command><![CDATA[clementine]]></command></action></item>
     <item label="DeaDBeeF" icon="/home/venkat/.config/obmenu-generator/icons/bc0e86e2615fb8a1ebeed93547600e4d.png"><action name="Execute"><command><![CDATA[deadbeef]]></command></action></item>
@@ -155,7 +155,7 @@
     <item label="Volume Icon" icon="/home/venkat/.config/obmenu-generator/icons/69444a851b20aad47731d8338679c90f.png"><action name="Execute"><command><![CDATA[volumeicon]]></command></action></item>
     <item label="Xfburn" icon="/home/venkat/.config/obmenu-generator/icons/27152ab2a5463fc8b72ecc5e03232f71.png"><action name="Execute"><command><![CDATA[xfburn]]></command></action></item>
   </menu>
-  <menu id="0.627286969587967" icon="/home/venkat/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png" label="Network">
+  <menu id="0.115687757867217" icon="/home/venkat/.config/obmenu-generator/icons/c7e1c475b5b39f065032f3688b33a3eb.png" label="Network">
     <item label="AnyDesk" icon="/home/venkat/.config/obmenu-generator/icons/46c78af3d4585d7b37a9e33aba5b3a6b.png"><action name="Execute"><command><![CDATA[env GTK2_RC_FILES=/usr/share/themes/Adwaita/gtk-2.0/gtkrc /usr/bin/anydesk]]></command></action></item>
     <item label="Avahi SSH Server Browser" icon="/home/venkat/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
     <item label="Avahi VNC Server Browser" icon="/home/venkat/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
@@ -176,7 +176,7 @@
     <item label="Wireshark" icon="/home/venkat/.config/obmenu-generator/icons/638effb5de35f28c4005604f88ad31f5.png"><action name="Execute"><command><![CDATA[wireshark]]></command></action></item>
     <item label="Zoom" icon="/home/venkat/.config/obmenu-generator/icons/6baf7ed82d4f3985baddfa3d80a7d816.png"><action name="Execute"><command><![CDATA[/usr/bin/zoom]]></command></action></item>
   </menu>
-  <menu id="0.546689891530228" icon="/home/venkat/.config/obmenu-generator/icons/0b82a46b62fcd3afe7908b39cfd0d580.png" label="Office">
+  <menu id="0.995045067317811" icon="/home/venkat/.config/obmenu-generator/icons/0b82a46b62fcd3afe7908b39cfd0d580.png" label="Office">
     <item label="Bookworm" icon="/home/venkat/.config/obmenu-generator/icons/b6ccf3aa1171afd9376eb01943b645c0.png"><action name="Execute"><command><![CDATA[com.github.babluboy.bookworm]]></command></action></item>
     <item label="Dictionary" icon="/home/venkat/.config/obmenu-generator/icons/39f1c3cc4185cb6326da6b6f3c9a738c.png"><action name="Execute"><command><![CDATA[xfce4-dict]]></command></action></item>
     <item label="GnuCash" icon="/home/venkat/.config/obmenu-generator/icons/95094e31a27a22575d28380aeb01665c.png"><action name="Execute"><command><![CDATA[gnucash]]></command></action></item>
@@ -189,12 +189,12 @@
     <item label="LibreOffice" icon="/home/venkat/.config/obmenu-generator/icons/0b172528677a57fff0c7ebe828916771.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
     <item label="qpdfview" icon="/home/venkat/.config/obmenu-generator/icons/560dfa210e3220e7dcfff4fb103e1ba7.png"><action name="Execute"><command><![CDATA[qpdfview --unique]]></command></action></item>
   </menu>
-  <menu id="0.329852811517785" icon="/home/venkat/.config/obmenu-generator/icons/7c3046a24652c3ba21ba2b29d1875390.png" label="Other">
+  <menu id="0.503402794469739" icon="/home/venkat/.config/obmenu-generator/icons/7c3046a24652c3ba21ba2b29d1875390.png" label="Other">
     <item label="gEDA Attribute Editor" icon="/home/venkat/.config/obmenu-generator/icons/16386cb0d5bfd1d19564d5e9fd359860.png"><action name="Execute"><command><![CDATA[gattrib]]></command></action></item>
     <item label="gEDA Schematic Editor" icon="/home/venkat/.config/obmenu-generator/icons/4c92de98d21f2fdcab79584dc6b212bc.png"><action name="Execute"><command><![CDATA[gschem]]></command></action></item>
     <item label="Logisim Evolution" icon="/home/venkat/.config/obmenu-generator/icons/f967f9a65c17738c5d8ad88958e95c1c.png"><action name="Execute"><command><![CDATA[/usr/bin/logisim-evolution]]></command></action></item>
   </menu>
-  <menu id="0.173265438585759" icon="/home/venkat/.config/obmenu-generator/icons/bcb151d4685693cd69071c109fe5aaa0.png" label="Settings">
+  <menu id="0.103773756244436" icon="/home/venkat/.config/obmenu-generator/icons/bcb151d4685693cd69071c109fe5aaa0.png" label="Settings">
     <item label="About Me" icon="/home/venkat/.config/obmenu-generator/icons/95525277ff3701d3f37ef901bc9b46a7.png"><action name="Execute"><command><![CDATA[/usr/bin/mugshot]]></command></action></item>
     <item label="Accessibility" icon="/home/venkat/.config/obmenu-generator/icons/9179d32e0c8ae295d8afbe71aa578b44.png"><action name="Execute"><command><![CDATA[xfce4-accessibility-settings]]></command></action></item>
     <item label="Adobe Flash Player" icon="/home/venkat/.config/obmenu-generator/icons/9114fcf474f13cf27a677aa68665569f.png"><action name="Execute"><command><![CDATA[flash-player-properties]]></command></action></item>
@@ -241,7 +241,7 @@
     <item label="Workspaces" icon="/home/venkat/.config/obmenu-generator/icons/bff73cd55b5c94e2c4d01680228a87a5.png"><action name="Execute"><command><![CDATA[xfwm4-workspace-settings]]></command></action></item>
     <item label="Xfce Terminal Settings" icon="/home/venkat/.config/obmenu-generator/icons/100bba36539727738af50ef547b3e64d.png"><action name="Execute"><command><![CDATA[xfce4-terminal --preferences]]></command></action></item>
   </menu>
-  <menu id="0.0767675172699391" icon="/home/venkat/.config/obmenu-generator/icons/a176b24cfc1041f19deeb2d962ed10c1.png" label="System">
+  <menu id="0.809640052977368" icon="/home/venkat/.config/obmenu-generator/icons/a176b24cfc1041f19deeb2d962ed10c1.png" label="System">
     <item label="Alacritty" icon="/home/venkat/.config/obmenu-generator/icons/730bad5b893b27fd05734129bd317338.png"><action name="Execute"><command><![CDATA[alacritty]]></command></action></item>
     <item label="Avahi Zeroconf Browser" icon="/home/venkat/.config/obmenu-generator/icons/1be588c8d58263b210606a8bc5a67831.png"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
     <item label="BleachBit" icon="/home/venkat/.config/obmenu-generator/icons/b11c50b686a765e4a72404155b7f9246.png"><action name="Execute"><command><![CDATA[bleachbit]]></command></action></item>
@@ -285,10 +285,10 @@
     <item label="XTerm" icon="/home/venkat/.config/obmenu-generator/icons/8014b30ad98c1dcc6e92effab1348ab6.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
   </menu>
   <separator/>
-  <menu id="0.908153414716686" icon="/home/venkat/.config/obmenu-generator/icons/5d4fce55a4a4966e420dedb34dbd7138.png" label="Advanced Settings">
+  <menu id="0.179128568842749" icon="/home/venkat/.config/obmenu-generator/icons/5d4fce55a4a4966e420dedb34dbd7138.png" label="Advanced Settings">
     <item label="Conky RC" icon="/home/venkat/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
     <item label="Tint2 Panel" icon="/home/venkat/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
-  <menu id="0.976699173247642" icon="/home/venkat/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png" label="Obmenu-Generator">
+  <menu id="0.159643552296064" icon="/home/venkat/.config/obmenu-generator/icons/fa28bbccdb8ea53178a89feae5022254.png" label="Obmenu-Generator">
     <item label="Menu Schema" icon="/home/venkat/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
     <item label="Menu Config" icon="/home/venkat/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
   <separator/>
@@ -300,7 +300,7 @@
   <separator/>
     <item label="Refresh cache" icon="/home/venkat/.config/obmenu-generator/icons/bea463f6928b30d6539f9bf6955346e6.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
   </menu>
-  <menu id="0.252629727206809" icon="/home/venkat/.config/obmenu-generator/icons/18d0310fcf7c8bb965edf7c46583c560.png" label="Openbox">
+  <menu id="0.113817816914676" icon="/home/venkat/.config/obmenu-generator/icons/18d0310fcf7c8bb965edf7c46583c560.png" label="Openbox">
     <item label="Openbox Autostart" icon="/home/venkat/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
     <item label="Openbox RC" icon="/home/venkat/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
     <item label="Openbox Menu" icon="/home/venkat/.config/obmenu-generator/icons/a03ff664a373a1a68651467cd9fd0c39.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
