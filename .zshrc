@@ -162,7 +162,7 @@ export KEYTIMEOUT=1
 export PATH="$HOME/.local/bin:$PATH"
 
 
-#Alias
+# Alias
 eval $(thefuck --alias)
 
 
@@ -171,3 +171,7 @@ alias ls='ls --color=auto'
 alias tree='tree -C'
 alias config='/usr/bin/git --git-dir=/home/venkat/.cfg/ --work-tree=/home/venkat'
 alias sudo='doas'
+
+
+# Broot
+source /home/venkat/.config/broot/launcher/bash/br
