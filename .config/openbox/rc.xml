@@ -774,6 +774,12 @@
     <application class="*">
       <focus>yes</focus>
     </application>
+   <application class="firefox*">
+      <decor>no</decor>
+   </application>
+   <application class="LibreWolf">
+      <decor>no</decor>
+   </application>
     <!--
   # this is an example with comments through out. use these to make your
   # own rules, but without the comments of course.

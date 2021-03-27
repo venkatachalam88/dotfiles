@@ -24,6 +24,8 @@ urxvtd -q &
 
 xsettingsd &
 
+rofi -disable-history -sort -sorting-method 'fzf' -show drun &
+
 #thunar --daemon &
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
